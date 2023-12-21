@@ -10,23 +10,23 @@ const playround = (playerChoice, numb, computerChoice = computerselection()) => 
         results.push(`round ${numb}, the computer wins`);
         computer ++;
 
-    } else if (computerChoice === 'scissors' && playerchoice === 'rock') {
+    } else if (computerChoice === 'scissors' && playerChoice === 'rock') {
         esults.push(`round ${numb}, the player wins`);
         player ++;
 
-    } else if (computerChoice === 'rock' && playerchoice === 'paper') {
+    } else if (computerChoice === 'rock' && playerChoice === 'paper') {
         results.push(`round ${numb}, the player wins`);
         player ++;
 
-    } else if (computerChoice === `paper` && playerchoice ===`scissors`) {
+    } else if (computerChoice === `paper` && playerChoice ===`scissors`) {
         results.push(`round ${numb}, the player wins`);
         player ++;
     
-    } else if (computerChoice === 'scissors' && playerchoice === 'paper') {
+    } else if (computerChoice === 'scissors' && playerChoice === 'paper') {
         results.push(`round ${numb}, the computer wins`);
         computer ++;
     
-    } else if (computerChoice === `paper` && playerchoice ===`rock`) {
+    } else if (computerChoice === `paper` && playerChoice ===`rock`) {
         results.push(`round ${numb}, the computer wins`);
         computer ++;
     

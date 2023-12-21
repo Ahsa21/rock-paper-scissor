@@ -35,3 +35,20 @@ const playround = (playerChoice, numb, computerChoice = computerselection()) => 
         playround(playerInput, numb);
     }
 };
+
+const game = () => {
+    let counter = 1;
+
+    for (let i = 0; i < 5; i++) {
+        let playerInput = prompt(`what is your choice? `);
+        playround(playerInput, counter);
+        counter++;
+    };
+
+    (computer > player) ? console.log(`the computer wins the whole game, ${computer} to the computer and ${player} to the player`):
+    console.log(`the player wins the whole game, ${computer} to the computer and ${player} to the player`);
+    console.log(results)
+};
+
+
+game()
